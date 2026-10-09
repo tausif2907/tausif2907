@@ -1,5 +1,9 @@
 <p align="center">
-  <a href="https://portfolio-tausif.vercel.app/"><img src="./assets/header.svg" width="100%" alt="Tausif Ansari — Computer Science Student · Full-Stack Developer" /></a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:120F1C,55:2E2350,100:A78BFA&text=Tausif%20Ansari&fontColor=F1EDFF&fontSize=58&fontAlignY=36&desc=Full-Stack%20Developer%20%E2%80%A2%20Computer%20Science%20Student&descSize=18&descAlignY=57&animation=fadeIn" width="100%" alt="Tausif Ansari" />
+</p>
+
+<p align="center">
+  <a href="https://portfolio-tausif.vercel.app/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=640&height=46&lines=Full-Stack%20Developer%20%26%20CS%20Student;Design%20%E2%86%92%20Develop%20%E2%86%92%20Deploy;Building%20CRMs%2C%20automations%20%26%20AI%20tools;Always%20eager%20to%20learn%2C%20build%20%26%20take%20on%20new%20challenges" alt="Typing intro" /></a>
 </p>
 
 <p align="center">
@@ -8,7 +12,7 @@
   <a href="mailto:tausifansari2907@gmail.com"><img src="https://img.shields.io/badge/Email-1B1728?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="Email" /></a>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+---
 
 ## ⚡ About Me
 
@@ -33,7 +37,7 @@ const tausif = {
 };
 ```
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+---
 
 ## 🧰 Tech Stack
 
@@ -113,7 +117,7 @@ const tausif = {
   <img src="https://img.shields.io/badge/Antigravity-1B1728?style=for-the-badge&logo=google&logoColor=A78BFA" alt="Antigravity" />
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+---
 
 ## 🚀 Featured Projects
 
@@ -152,7 +156,7 @@ const tausif = {
   <a href="https://portfolio-tausif.vercel.app/"><b>✨ See more of my work on my portfolio →</b></a>
 </p>
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+---
 
 ## 🤝 Let's Connect
 
@@ -167,5 +171,5 @@ const tausif = {
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:A78BFA,45:2E2350,100:120F1C" width="100%" alt="" />
 </p>
