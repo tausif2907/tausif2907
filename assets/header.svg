@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="Tausif Ansari — Full-Stack Developer">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#FFFFFF" fill-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    .eyebrow { fill: #9A92B8; font-size: 13px; letter-spacing: 5px; }
+    .name { fill: #F1EDFF; font-size: 66px; font-weight: 700; letter-spacing: 7px; }
+    .flow { fill: #E6E0FA; font-size: 22px; letter-spacing: 1px; }
+    .prompt { fill: #6C6585; font-size: 17px; }
+    .tag { fill: #A78BFA; font-size: 17px; opacity: 0; }
+    .mono-ta { fill: #A78BFA; font-family: Georgia, "Times New Roman", serif; font-size: 52px; letter-spacing: 4px; }
+
+    .rise { opacity: 0; animation: rise 0.9s ease-out forwards; }
+    .d1 { animation-delay: 0.1s; } .d2 { animation-delay: 0.35s; } .d3 { animation-delay: 0.6s; } .d4 { animation-delay: 0.85s; }
+    @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+    .dash { fill: #A78BFA; letter-spacing: -2px; }
+
+    .t1, .t2, .t3 { animation: cycle 10.5s linear infinite; }
+    .t2 { animation-delay: 3.5s; } .t3 { animation-delay: 7s; }
+    @keyframes cycle { 0% { opacity: 0; } 3% { opacity: 1; } 30% { opacity: 1; } 33.3% { opacity: 0; } 100% { opacity: 0; } }
+
+    .caret { fill: #A78BFA; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin 40s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .rise, .spin, .caret { animation: none; opacity: 1; }
+      .t1 { animation: none; opacity: 1; } .t2, .t3 { animation: none; opacity: 0; }
+    }
+  </style>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="#120F1C" stroke="#2A2440"/>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="url(#dots)"/>
+  <rect x="120" y="0" width="760" height="2" fill="url(#edge)"/>
+
+  <!-- left copy -->
+  <text class="sans eyebrow rise d1" x="60" y="78">COMPUTER SCIENCE STUDENT · FULL-STACK DEVELOPER</text>
+  <text class="sans name rise d2" x="56" y="150">TAUSIF ANSARI</text>
+
+  <text class="sans flow rise d3" x="60" y="200">Design<tspan class="dash" dx="14">———</tspan><tspan dx="14">Develop</tspan><tspan class="dash" dx="14">———</tspan><tspan dx="14">Deploy</tspan></text>
+
+  <g class="mono rise d4">
+    <text class="prompt" x="60" y="252">~/tausif $</text>
+    <text class="tag t1" x="170" y="252">building CRMs, automations &amp; AI tools</text>
+    <text class="tag t2" x="170" y="252">turning ideas into shipped products</text>
+    <text class="tag t3" x="170" y="252">always eager to learn, build &amp; grow</text>
+  </g>
+
+  <!-- right emblem -->
+  <circle cx="850" cy="150" r="125" fill="url(#glow)"/>
+  <circle class="spin" cx="850" cy="150" r="96" fill="none" stroke="#A78BFA" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="3 9"/>
+  <circle cx="850" cy="150" r="78" fill="#18142A" stroke="#A78BFA" stroke-width="2.5"/>
+  <text class="mono-ta" x="850" y="168" text-anchor="middle">TA</text>
+  <rect class="caret" x="836" y="182" width="28" height="3" rx="1.5"/>
+</svg>
